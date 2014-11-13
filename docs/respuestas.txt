@@ -7,3 +7,23 @@ activa en el repositorio remoto nuestro directorio de trabajo.
 Javier: una rama es una línea de desarrollo separada a partir de un cierto
 commit inicial. Se pueden usar con muchos fines: por ejemplo, separar
 correcciones y nuevas funcionalidades.
+
+Eduardo:
+a) ¿Qué es clonar un repositorio?
+Al clonar obtienes una copia de un repositorio GIT existente, incluyendo una copia de cada uno de los ficheros y versiones que tienes en el servidor.
+
+Eduardo:
+b) ¿Qué es una rama?
+En cada confirmación de cambios (commit), Git almacena un punto de control que conserva: un apuntador a la copia puntual de los contenidos preparados (staged), unos metadatos con el autor y el mensaje explicativo, y uno o varios apuntadores a las confirmaciones (commit) que sean padres directos de esta (un padre en los casos de confirmación normal, y múltiples padres en los casos de estar confirmando una fusión (merge) de dos o mas ramas).
+Una rama Git es simplemente un apuntador móvil apuntando a una de esas confirmaciones. La rama por defecto de Git es la rama master. Con la primera confirmación de cambios que realicemos, se creará esta rama principal master apuntando a dicha confirmación. En cada confirmación de cambios que realicemos, la rama irá avanzando automáticamente. Y la rama master apuntará siempre a la última confirmación realizada.
+Cuando creas una nueva rama, simplemente se crea un nuevo apuntador para que lo puedas mover libremente.
+
+Dailos ¿Qué es clonar un repositorio?
+
+Dailos: Se trata de traer al espacio de trabajo local un directorio externo situado en un repositorio
+de un sistema de control de versiones.
+
+Dailos ¿Qué es una rama?
+
+Dailos: Es una instancia, o flujo de trabajo dentro de un mismo proyecto, permitiendo así que varios
+miembros del mismo trabajen de manera paralela sin afectar al flujo de trabajo de su compañero.
