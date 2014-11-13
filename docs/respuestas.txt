@@ -1,1 +1,9 @@
 Respuestas a las preguntas
+
+a) ¿Qué es clonar un repositorio?
+Al clonar obtienes una copia de un repositorio GIT existente, incluyendo una copia de cada uno de los ficheros y versiones que tienes en el servidor.
+
+b) ¿Qué es una rama?
+En cada confirmación de cambios (commit), Git almacena un punto de control que conserva: un apuntador a la copia puntual de los contenidos preparados (staged), unos metadatos con el autor y el mensaje explicativo, y uno o varios apuntadores a las confirmaciones (commit) que sean padres directos de esta (un padre en los casos de confirmación normal, y múltiples padres en los casos de estar confirmando una fusión (merge) de dos o mas ramas).
+Una rama Git es simplemente un apuntador móvil apuntando a una de esas confirmaciones. La rama por defecto de Git es la rama master. Con la primera confirmación de cambios que realicemos, se creará esta rama principal master apuntando a dicha confirmación. En cada confirmación de cambios que realicemos, la rama irá avanzando automáticamente. Y la rama master apuntará siempre a la última confirmación realizada.
+Cuando creas una nueva rama, simplemente se crea un nuevo apuntador para que lo puedas mover libremente.
