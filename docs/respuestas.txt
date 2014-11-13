@@ -1,1 +1,11 @@
 Respuestas a las preguntas
+
+Dailos ¿Qué es clonar un repositorio?
+
+Dailos: Se trata de traer al espacio de trabajo local un directorio externo situado en un repositorio
+de un sistema de control de versiones.
+
+Dailos ¿Qué es una rama?
+
+Dailos: Es una instancia, o flujo de trabajo dentro de un mismo proyecto, permitiendo así que varios
+miembros del mismo trabajen de manera paralela sin afectar al flujo de trabajo de su compañero.
