@@ -1,1 +1,9 @@
 Respuestas a las preguntas
+
+Javier: clonar un repositorio git crea un repositorio local con ramas derivadas
+de las ramas del repositorio remoto (remote-tracking branches), y hace la rama
+activa en el repositorio remoto nuestro directorio de trabajo.
+
+Javier: una rama es una línea de desarrollo separada a partir de un cierto
+commit inicial. Se pueden usar con muchos fines: por ejemplo, separar
+correcciones y nuevas funcionalidades.
