@@ -27,3 +27,11 @@ Dailos ¿Qué es una rama?
 
 Dailos: Es una instancia, o flujo de trabajo dentro de un mismo proyecto, permitiendo así que varios
 miembros del mismo trabajen de manera paralela sin afectar al flujo de trabajo de su compañero.
+
+Carlos:
+¿Qué es clonar un repositorio?
+Es hacer una copia local de un repositorio completo.
+Carlos:
+¿Qué es una rama?
+En una bifurcación del proyecto que se produce en un determinado punto para hacer desarrollo paralelo sin interferir en el resto de ramas (principal o no)
+
